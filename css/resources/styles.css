@@ -1,5 +1,8 @@
 body {
-    background-color: teal;
+    background-image: url("/css/resources/images/techbg.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat-y;
 }
 
 /**HEADERS**/
@@ -19,7 +22,12 @@ h2 {
 .sub_title {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: forestgreen;
+    background-color: goldenrod;
     color: whitesmoke;
     font-style: italic;
+}
+
+/**footer**/
+footer {
+    
 }
