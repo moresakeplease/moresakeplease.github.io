@@ -1,0 +1,25 @@
+body {
+    background-color: teal;
+}
+
+/**HEADERS**/
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: goldenrod;
+}
+
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/**sub-title**/
+.sub_title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: forestgreen;
+    color: whitesmoke;
+    font-style: italic;
+}
