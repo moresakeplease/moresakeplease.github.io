@@ -1,16 +1,16 @@
 body {
-    background-image: url("/css/resources/images/techbg.jpg");
-    background-size: auto;
-    background-position: center;
-    background-repeat: repeat-y;
+    background-color: rgb(36, 36, 36);
 }
 
 /**HEADERS**/
+header {
+    background-color: rgb(118, 118, 118);
+}
 
 h1 {
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: goldenrod;
+    color: rgb(183, 183, 183);
 }
 
 h2 {
@@ -18,11 +18,16 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/**links**/
+.links {
+    display: inline;
+    color: whitesmoke;
+    
+}
 /**sub-title**/
 .sub_title {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: goldenrod;
     color: whitesmoke;
     font-style: italic;
 }
@@ -30,4 +35,9 @@ h2 {
 /**footer**/
 footer {
     
+}
+
+.container {
+    display: flex;
+
 }
