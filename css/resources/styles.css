@@ -1,23 +1,38 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(/css/resources/Roboto/Roboto-Medium.ttf)format('truetype');     
+    src: url(/css/resources/Roboto/Roboto-Medium.ttf)format('truetype');
+ 
+* {
+    box-sizing: border-box;
+}
+
 }
 body {
-    background-color: rgb(36, 36, 36);
+    background-color: #fff;
+    
 }
 
 /**HEADERS**/
 header {
-    background-color: rgb(118, 118, 118);
+    display: flex;
+    justify-content: space-around;
+   
 }
+
+header img {
+    margin: 0 10px;
+
+}
+
 
 h1 {
     text-align: left;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Merriweather", serif;
     font-optical-sizing: auto;
     font-weight: 700px;
     font-style: normal;
-    color: rgb(183, 183, 183);
+    color: rgb(38, 38, 38);
+    width: auto;
 }
 
 h2 {
@@ -25,12 +40,7 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/**links**/
-.links {
-    display: inline;
-    color: whitesmoke;
-    
-}
+
 /**sub-title**/
 .sub_title {
     text-align: center;
@@ -41,10 +51,31 @@ h2 {
 
 /**footer**/
 footer {
-    
+
 }
 
-.container {
-    display: flex;
+/**H1 Animation**/
+.slide-in {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease, transform 1s ease;
+}
 
+.slide-in.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/**Link Aniimation**/
+
+.slide-in-link {
+    display: inline-block; /* Ensure the images are treated as block elements */
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.slide-in-link.show {
+    opacity: 1;
+    transform: translateX(0);
 }
