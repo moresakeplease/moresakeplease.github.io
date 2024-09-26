@@ -20,8 +20,8 @@ header {
 }
 
 header img {
-    margin: 0 10px;
-
+    margin: auto 10px;
+    padding-top: 15px;
 }
 
 
@@ -66,7 +66,7 @@ footer {
     transform: translateX(0);
 }
 
-/**Link Aniimation**/
+/**Link Animation**/
 
 .slide-in-link {
     display: inline-block; /* Ensure the images are treated as block elements */
