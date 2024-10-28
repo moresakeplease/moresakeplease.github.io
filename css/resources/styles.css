@@ -48,8 +48,8 @@ h2 {
 
 .container{
     text-align: center;
+    overflow-y: scroll;
 }
-
 /**sub-title**/
 .sub_title {
     text-align: center;
