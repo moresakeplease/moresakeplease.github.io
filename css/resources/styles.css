@@ -73,6 +73,7 @@ footer .container {
 
 /**H1 Animation**/
 .slide-in {
+    animation: slide-in 1s forwards;
     opacity: 0;
     transform: translateX(-100%);
     transition: opacity 1s ease, transform 1s ease;
