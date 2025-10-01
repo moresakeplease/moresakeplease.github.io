@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 .body {
-    background-image: url("./resources/images/tokyo_landscape.png");
+    background-image: url("../images/tokyo_landscape.png");
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -27,7 +27,7 @@
 .hero {
     height: 95vh; /* or any value, e.g., 100vh for full screen */
     width: 100%;
-    background-image: url("./resources/images/tokyo_landscape.png");
+    background-image: url("../images/tokyo_landscape.png");
     background-size: cover;
     background-position: center;
     background-color: rgb(60, 60, 60);
