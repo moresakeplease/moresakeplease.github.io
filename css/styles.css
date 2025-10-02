@@ -89,7 +89,7 @@ nav .social-icons:hover {
 }
 .video-overlay-text {
   position: absolute;
-  top: 60%;
+  top: 80%;
   left: 36.5%;
   transform: translate(-50%, -50%);
   color: white;
