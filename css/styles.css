@@ -371,7 +371,7 @@ footer p {
     z-index: 1;
   }
   .about img {
-    height: 300px;
+    height: 100%;
     width: 100%;
     padding:20px 0;
   }
