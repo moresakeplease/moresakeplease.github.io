@@ -360,7 +360,7 @@ footer p {
     font-size: 1.2rem;
   }
   .video-container {
-    display: block;
+    height: 300px;
   }
   .about {
     padding: 20px 0;
