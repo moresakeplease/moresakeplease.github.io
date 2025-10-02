@@ -392,6 +392,7 @@ footer p {
   }
   .title h2 {
     font-size: 32px;
+    padding: 20px 0;
   }
   .project-row {
     flex-direction: column;
