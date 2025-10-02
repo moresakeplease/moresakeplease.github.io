@@ -383,7 +383,6 @@ footer p {
 
   .about-text {
     width: 100%;  
-    flex-direction: column;
   }
     
   .about-text h2 {
