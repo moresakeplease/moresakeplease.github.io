@@ -19,7 +19,7 @@
 .social_tokyo {
   width: 100%;
   max-height: 400px;  
-  height: auto; /* or any desired value */
+  height: 80; /* or any desired value */
   position: relative;
   display: block;
 }
