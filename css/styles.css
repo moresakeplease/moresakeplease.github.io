@@ -20,7 +20,7 @@
   width: 100%;
   height: 73vh; /* or any desired value */
   object-fit: cover;
-  position: relative;
+  position: center;
   display: block;
 }
 
@@ -82,10 +82,11 @@ nav .social-icons:hover {
 .video-container {
   position: relative;
   width: 100%;
-  height: 50vh; /* match your video height */
+  height: 40vh; /* match your video height */
   object-fit: cover;
   position: center;
 
+}
 .video-overlay-text {
   position: absolute;
   top: 50%;
@@ -133,7 +134,7 @@ nav .social-icons:hover {
 
 .main{
     width: 1130px;
-    max-width: 100%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -338,7 +339,7 @@ footer p {
     font-size: 14px;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   nav {
     flex-direction: column;
     padding: 1rem 2%;
@@ -361,36 +362,31 @@ footer p {
     height: 50vh;
     font-size: 1.2rem;
   }
+
   .social_tokyo {
-    max-height: 200px;
+    height: 20vh; /* or any desired value */
   }
+
   .video-container {
-    margin-bottom: 1rem;
+    height: 300px;
+    padding-bottom: 20px;
   }
   .about {
     padding: 20px 0;
-    position: relative;
-    z-index: 1;
-    flex-direction: column;
   }
   .about img {
-    height: 100%;
-    width: 100%;
-    padding:20px 0;
+    height: 200px;
   }
-  
+  .about-text {
+    width: 100%;
+    padding: 0 10px;
+  }
   .main {
     width: 100%;
     flex-direction: column;
+    align-items: flex-start;
   }
-
-  .about-text {
-    width: 100%;  
-  }
-    
   .about-text h2 {
-    width: 100%;  
-    padding: 20px 0;  
     font-size: 40px;
   }
   .projects {
@@ -398,7 +394,6 @@ footer p {
   }
   .title h2 {
     font-size: 32px;
-    padding: 20px 0;
   }
   .project-row {
     flex-direction: column;
@@ -412,10 +407,6 @@ footer p {
     width: 100%;
     height: 120px;
   }
-  .project-row2 img {
-      width: 100%;
-      height: 120px;
-  }
   .skills-row {
     flex-direction: column;
     gap: 20px;
@@ -425,7 +416,7 @@ footer p {
     padding: 10px;
   }
 }
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .logo {
     font-size: 20px;
   }
