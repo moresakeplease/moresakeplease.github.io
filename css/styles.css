@@ -374,6 +374,7 @@ footer p {
   .about img {
     height: 200px;
     width: 100%;
+    padding:20px 0;
   }
   .about-text {
     width: 100%;
