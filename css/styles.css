@@ -359,6 +359,9 @@ footer p {
     height: 50vh;
     font-size: 1.2rem;
   }
+  .social_tokyo {
+    height: 20vh;
+  }
   .video-container {
     display: block;
     height: 300px;
