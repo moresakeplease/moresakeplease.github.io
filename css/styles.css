@@ -369,6 +369,7 @@ footer p {
     padding: 20px 0;
     position: relative;
     z-index: 1;
+    flex-direction: column;
   }
   .about img {
     height: 100%;
@@ -377,7 +378,7 @@ footer p {
   }
   
   .main {
-    width: 100%;
+    width: 100%;  
   }
 
   .about-text {
