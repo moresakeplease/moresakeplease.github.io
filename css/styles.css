@@ -374,6 +374,9 @@ footer p {
   .video-overlay-text {
     font-size: 1.2rem
   }
+  .video-container .video-overlay-text h1 h3 h4{
+    font-size: 40px;
+  }
   .about {
     padding: 20px 0;
   }
@@ -431,5 +434,14 @@ footer p {
   }
   .skills-card h3 {
     font-size: 18px;
+  }
+  video-overlay-text h1{
+    font-size: 28px
+  }
+  video-overlay-text h3{
+    font-size: 18px
+  }
+  video-overlay-text h4{
+    font-size: 16px
   }
 }
