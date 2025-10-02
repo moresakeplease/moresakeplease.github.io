@@ -385,6 +385,7 @@ footer p {
     font-size: 40px;
   }
   .projects {
+    display: block;
     padding: 20px 0;
   }
   .title h2 {
