@@ -18,14 +18,14 @@
 }
 .social_tokyo {
   width: 100%;
-  max-height: 400px;  
-  height: auto; /* or any desired value */
+  height: 73vh; /* or any desired value */
+  object-fit: cover;
   position: relative;
   display: block;
 }
 
 .hero {
-    height: 80vh; /* or any value, e.g., 100vh for full screen */
+    height: 81vh; /* or any value, e.g., 100vh for full screen */
     width: 100%;
     background-image: url("./resources/images/tokyo_landscape.png");
     background-size: cover;
@@ -82,8 +82,10 @@ nav .social-icons:hover {
 .video-container {
   position: relative;
   width: 100%;
-  margin-bottom: 2rem;
-}
+  height: 40vh; /* match your video height */
+  object-fit: cover;
+  position: center;
+
 .video-overlay-text {
   position: absolute;
   top: 50%;
