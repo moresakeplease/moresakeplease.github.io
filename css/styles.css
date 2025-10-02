@@ -375,9 +375,7 @@ footer p {
     width: 100%;
     padding:20px 0;
   }
-  .about-text {
-    width: 100%;
-  }
+  
   .main {
     width: 100%;
     flex-direction: column;
