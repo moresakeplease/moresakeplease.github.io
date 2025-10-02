@@ -21,7 +21,7 @@
   max-height: 850px;  
   height: 100vh; /* or any desired value */
   object-fit: cover;
-  position: center;
+  position: relative;
   display: block;
 }
 
