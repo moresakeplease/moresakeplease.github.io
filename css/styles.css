@@ -82,7 +82,7 @@ nav .social-icons:hover {
 .video-container {
   position: relative;
   width: 100%;
-  height: 40vh; /* match your video height */
+  height: 60vh; /* match your video height */
   object-fit: cover;
   position: center;
 
