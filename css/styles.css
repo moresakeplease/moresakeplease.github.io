@@ -25,7 +25,7 @@
 }
 
 .hero {
-    height: 90vh; /* or any value, e.g., 100vh for full screen */
+    height: 80vh; /* or any value, e.g., 100vh for full screen */
     width: 100%;
     background-image: url("./resources/images/tokyo_landscape.png");
     background-size: cover;
