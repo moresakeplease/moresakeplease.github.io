@@ -361,13 +361,10 @@ footer p {
     font-size: 1.2rem;
   }
   .social_tokyo {
-    height: 30vh;
+    max-height: 200px;
   }
   .video-container {
-    display: block;
-    height: 300px;
-    padding-bottom: 20px;
-    margin-bottom: auto;
+    margin-bottom: 1rem;
   }
   .about {
     padding: 20px 0;
