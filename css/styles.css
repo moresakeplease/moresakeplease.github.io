@@ -114,7 +114,6 @@ nav .social-icons:hover {
 .about {
     width: 100%;
     padding: 50px 0;
-    margin: 50px 0;
     background-color: #191919;
 }
 
@@ -131,7 +130,6 @@ nav .social-icons:hover {
 }
 
 .main{
-    margin: 50px 0;
     width: 1130px;
     max-width: 90%;
     display: flex;
