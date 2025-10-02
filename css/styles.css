@@ -371,7 +371,7 @@ footer p {
     z-index: 1;
   }
   .about img {
-    height: 200px;
+    height: 300px;
     width: 100%;
     padding:20px 0;
   }
@@ -382,7 +382,8 @@ footer p {
   }
 
   .about-text {
-      flex-direction: column;
+    width: 100%;  
+    flex-direction: column;
   }
     
   .about-text h2 {
