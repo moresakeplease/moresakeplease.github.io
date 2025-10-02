@@ -361,6 +361,7 @@ footer p {
   }
   .video-container {
     display: block;
+    padding-bottom: 20px;
   }
   .about {
     width: 100%;
