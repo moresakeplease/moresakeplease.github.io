@@ -373,6 +373,7 @@ footer p {
   }
   .about img {
     height: 200px;
+    width: 100%;
   }
   .about-text {
     width: 100%;
