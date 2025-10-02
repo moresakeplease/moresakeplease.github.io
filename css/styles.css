@@ -380,7 +380,14 @@ footer p {
     width: 100%;
     flex-direction: column;
   }
+
+  .about-text {
+      flex-direction: column;
+  }
+    
   .about-text h2 {
+    width: 100%;  
+    padding: 20px 0;  
     font-size: 40px;
   }
   .projects {
