@@ -368,7 +368,8 @@ footer p {
     display: block;  
     width: 100%;
     padding: 20px 0;
-    flex-direction: column;  
+    position: relative;
+    z-index: 1;
   }
   .about img {
     height: 200px;
