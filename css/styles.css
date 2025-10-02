@@ -371,6 +371,9 @@ footer p {
     height: 300px;
     padding-bottom: 20px;
   }
+  .video-overlay-text {
+    font-size: 1.2rem
+  }
   .about {
     padding: 20px 0;
   }
