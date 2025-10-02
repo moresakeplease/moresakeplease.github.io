@@ -83,8 +83,7 @@ nav .social-icons:hover {
 .video-container {
   position: relative;
   width: 100%;
-  height: 100vh; /* match your video height */
-  max-height: 850px;
+  margin-bottom: 2rem;
 }
 .video-overlay-text {
   position: absolute;
