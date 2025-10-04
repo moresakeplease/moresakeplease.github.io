@@ -98,10 +98,10 @@ nav .social-icons:hover {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  text-align: center;
   word-break: break-word;
   overflow-wrap: break-word;
   z-index: 2;
+  max-width: 90%;
 }
 
 .social-icons {
