@@ -372,7 +372,8 @@ footer p {
     padding-bottom: 20px;
   }
   .video-overlay-text {
-    font-size: 1.2rem
+    font-size: 1rem;
+    max-width: 95%;
   }
   .video-container .video-overlay-text h1 h3 h4{
     font-size: 18px;
