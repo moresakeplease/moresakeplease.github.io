@@ -93,7 +93,7 @@ nav .social-icons:hover {
   left: 36.5%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   font-family: 'Roboto', sans-serif;
@@ -101,6 +101,7 @@ nav .social-icons:hover {
   text-align: center;
   word-break: break-word;
   overflow-wrap: break-word;
+  z-index: 2;
 }
 
 .social-icons {
