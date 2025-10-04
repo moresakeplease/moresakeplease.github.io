@@ -367,6 +367,7 @@ footer p {
 
   .social_tokyo {
     height: 20vh; /* or any desired value */
+    display: none;  
   }
 
   .video-container {
